@@ -5,6 +5,7 @@ author        = "bichanna"
 description   = "Converts Roman numerals to what you understand without a blinkblink"
 license       = "MIT"
 srcDir        = "src"
+bin           = @["romanim"]
 
 
 # Dependencies
