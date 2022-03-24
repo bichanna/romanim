@@ -8,5 +8,6 @@
 import unittest
 
 import romanim
-test "can add":
-  check add(5, 5) == 10
+test "Roman -> int":
+  check roman2int("III") == 3
+  check roman2int("XVII") == 17
