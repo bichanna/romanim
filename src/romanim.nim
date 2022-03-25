@@ -3,7 +3,7 @@
   Created by Nobuharu Shimazu on 3/24/2022
 ]#
 
-import tables
+import tables, re
 
 const roman*: OrderedTable[string, int] = [
   ("M",  1000),
@@ -54,4 +54,4 @@ proc int2roman*(num: int): string =
         copyNum -= n
 
 proc isRoman*(str: string): bool =
-  discard
+  return match(str, re"^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$")

@@ -16,3 +16,7 @@ test "int -> Roman":
   check int2roman(1995) == "MCMXCV"
   check int2roman(35) == "XXXV"
   check int2roman(2022) == "MMXXII"
+
+test "is this Roman?":
+  check isRoman("MMXXII") == true
+  check isRoman("yada yada yada") == false
