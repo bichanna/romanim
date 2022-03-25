@@ -3,7 +3,7 @@
  - Converts what you understand without a blink to Roman numerals.
 
 ## Installation
-> *Note:* Don't install romanim yet! I haven't added this [packages](https://github.com/nim-lang/packages#nim-packages-)
+> *Note:* Don't install romanim yet! I haven't added this to [packages](https://github.com/nim-lang/packages#nim-packages-)
 ```bash
 $ nimble install romanim
 ```
